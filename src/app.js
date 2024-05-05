@@ -1,5 +1,7 @@
 import 'dotenv/config'
 import express from 'express'
+import mongoose from "mongoose"
+import User from "./models/user.model"
 
 const app = express()
 const port = process.env.PORT || 4000
