@@ -1,3 +1,4 @@
+/*
 import 'dotenv/config'
 import express from 'express'
 import mongoose from "mongoose"
@@ -13,3 +14,4 @@ app.get("/",(req,res)=>{
 app.listen(port,()=>{
     console.log(`User Server is localhost:${port}`);
 })
+*/
