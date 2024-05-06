@@ -1,3 +1,11 @@
+import express from 'express'
+
+const app = express()
+
+export { app };
+
+
+
 /*
 import 'dotenv/config'
 import express from 'express'
