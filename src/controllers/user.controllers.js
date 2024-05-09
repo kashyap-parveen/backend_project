@@ -17,6 +17,7 @@ const registerUser = asyncHandler( async (req,res)=>{
     // remove password and refresh token field from response
     // check for user creation
     // return res
+    
 const {username, email, fullName, password} = req.body
     if (
         [username, email, fullName, password].some((field) => field?.trim() === "")
@@ -63,5 +64,9 @@ const {username, email, fullName, password} = req.body
     
 })
 
-
 export {registerUser};
+/*
+const registerUser = asyncHandler (async(req,res)=>{
+    res.send("Hello World")
+})
+*/
